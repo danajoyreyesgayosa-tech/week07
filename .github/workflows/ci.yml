@@ -143,6 +143,7 @@ jobs:
     # Backend and frontend tests must pass before this job starts
     needs:
       - backend-test
+      - frontend-test
 
 
     # Build and push when code is pushed to main or manually triggered
